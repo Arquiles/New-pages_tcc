@@ -1,0 +1,14 @@
+.floter {
+  background-color: antiquewhite;
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+.body {
+  background-color: plum;
+}
+.container {
+  background-image: url(../imagens/clinic.png);
+  margin-top: 10px;
+  background-image: no-repeat;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/veterinario.css" />
+  </head>
+  <body>
+    <div class="floter">
+      <h4>Quatro patas
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2.376 2.376 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386Z"/>
+        </svg>
+      </h4>
+      <button type="button" class="btn btn-dark">Login</button>
+    </div>
+    <div class="container">
+      <h4>Cadastros</h4>
+      <div class="buttons">
+        <a class="btn btn-primary" href="./cadastro-clinica.html" role="button">Clinicas</a>
+        <a class="btn btn-success" href="#" role="button">Veterinários</a>
+        <a class="btn btn-primary" href="./cadastro-tutor.html" role="button">Tutores</a>
+        <div class="login">
+          <div class="cadastro">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputOver">Razão social</label>
+                  <input
+                    type="over"
+                    class="form-control"
+                    id="inputOver"
+                    placeholder="Digite seu nome e sobrenome"
+                  />
+                </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPhone">Celular</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="inputPhone"
+                    placeholder="Digite seu DDD + Celular"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPhone">Telefone</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="inputPhone"
+                    placeholder="Digite seu DDD + Telefone"
+                  />
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputGenero">Gênero</label>
+                  <select id="inputGenero" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option>Masculino</option>
+                    <option>Femino</option>
+                    <option>Outro</option>
+                  </select>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCPF">CPF</label>
+                    <input type="CPF" class="form-control" id="inputCPF" placeholder="Digite seu CPF">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputInsert">Inscrição estadual</label>
+                    <input type="insert" class="form-control" id="inputInsert" placeholder="Inscrição estadual">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputDocument">Documento que comprova ser clinica</label>
+                    <input type="document" class="form-control" id="inputDocument" placeholder="Documento que comprova ser clinica">
+                  </div>
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Endereço</label>
+                  <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="Rua dos Bobos, nº 0"
+                />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-6">
+                  <label for="inputAddress2">Complemento</label>
+                  <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder="Apartamento,casa, etc."
+                />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Cidade</label>
+                  <input type="text" class="form-control" id="inputCity" />
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputEstado">Estado</label>
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Escolher...</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputCEP">CEP</label>
+                  <input type="text" class="form-control" id="inputCEP" />
+                </div>
+              </div>
+              <h5>Opções de tratamento disponível</h5>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Tosa</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Banho</label>
+              </div>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option3">
+              <label class="form-check-label" for="inlineCheckbox2">Cuidados</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Confirmar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.first-top {
+  background-color: wheat;
+  text-align: center;
+}
+.cep-first {
+  text-align: center;
+  color: white;
+}
+.imagem1 {
+  height: 200px;
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}

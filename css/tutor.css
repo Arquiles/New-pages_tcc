@@ -1,0 +1,15 @@
+.floter {
+    background-color: antiquewhite;
+    width: auto;
+    height: 30px;
+    text-align: center;
+ }
+.body {
+    background-color: plum;
+}
+.container {
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/17/09/40/woman-7202209_1280.png) ;
+    margin-top: 10px;
+    background-image: no-repeat;
+}
+  
